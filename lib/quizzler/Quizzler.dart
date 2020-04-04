@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:udemy_flutter_bootcamp/quizzler/QuizBrain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
-void main() => runApp(Quizzler());
-
 class Quizzler extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
