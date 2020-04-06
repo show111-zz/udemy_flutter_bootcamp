@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:udemy_flutter_bootcamp/xylophone/XylophoneApp.dart';
 import 'package:udemy_flutter_bootcamp/dice/dice_page.dart';
 import 'package:udemy_flutter_bootcamp/quizzler/Quizzler.dart';
+import 'bitcoin/bitcoin_main.dart';
 import 'calculator/screens/bmi_calculator.dart';
 import 'clima/climate.dart';
 import 'destini/destini_page.dart';
@@ -22,6 +23,7 @@ class HomePage extends StatelessWidget {
         '/bmi_calculator_page': (context) => BMICalculator(),
         '/navigation_page': (context) => NavigationPage(),
         '/climate_page': (context) => ClimatePage(),
+        '/bitcoin_page': (context) => BitcoinMain(),
       },
       home: HomeListPage(),
     );
@@ -42,6 +44,7 @@ class HomeListPage extends StatelessWidget {
           ListTile(title: Text('bmi_calculator_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/bmi_calculator_page'); },),
           ListTile(title: Text('navigation_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/navigation_page'); },),
           ListTile(title: Text('climate_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/climate_page'); },),
+          ListTile(title: Text('bitcoin_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/bitcoin_page'); },),
         ],
       ),
     );
