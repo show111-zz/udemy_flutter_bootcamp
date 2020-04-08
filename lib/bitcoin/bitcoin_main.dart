@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'price_screen.dart';
 
-//void main() => runApp(MyApp());
-
 class BitcoinMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -14,3 +12,4 @@ class BitcoinMain extends StatelessWidget {
     );
   }
 }
+
