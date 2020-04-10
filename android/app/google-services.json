@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "611038273169",
+    "firebase_url": "https://udemy-flutter-bootcamp.firebaseio.com",
+    "project_id": "udemy-flutter-bootcamp",
+    "storage_bucket": "udemy-flutter-bootcamp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611038273169:android:dfe266a6051944e89b2930",
+        "android_client_info": {
+          "package_name": "com.tutorial.udemy_flutter_bootcamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611038273169-9i5gp9g1cdg8igutioecvfg12kjkg4l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHap54YTyiY61K_NpK2bELrnstebOfLZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611038273169-9i5gp9g1cdg8igutioecvfg12kjkg4l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

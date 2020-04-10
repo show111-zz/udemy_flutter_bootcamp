@@ -26,7 +26,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     );
 
 //    animation = CurvedAnimation(parent: controller, curve: Curves.decelerate, );
-    animation = ColorTween(begin: Colors.blueGrey, end: Colors.white)
+    animation = ColorTween(begin: Colors.blueGrey, end: Colors.lightGreen)
         .animate(controller);
 
     controller.forward();
@@ -42,7 +42,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
     controller.addListener(() {
       setState(() {});
-      print(animation.value);
     });
   }
 

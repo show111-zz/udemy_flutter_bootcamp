@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>611038273169-5hs7k0ptqasmcm5a3enf573ft1oglp9r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.611038273169-5hs7k0ptqasmcm5a3enf573ft1oglp9r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBfn0RyIFX_38wbAw-_sBvu_Ey1IXSUBnE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>611038273169</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tutorial.udemyFlutterBootcamp</string>
+	<key>PROJECT_ID</key>
+	<string>udemy-flutter-bootcamp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>udemy-flutter-bootcamp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:611038273169:ios:9e7223c9ba6d6cb99b2930</string>
+	<key>DATABASE_URL</key>
+	<string>https://udemy-flutter-bootcamp.firebaseio.com</string>
+</dict>
+</plist>
