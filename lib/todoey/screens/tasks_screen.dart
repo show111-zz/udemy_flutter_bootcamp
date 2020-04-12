@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:udemy_flutter_bootcamp/todoey/models/task_data.dart';
 import 'package:udemy_flutter_bootcamp/todoey/screens/add_task_screen.dart';
 import 'package:udemy_flutter_bootcamp/todoey/widgets/task_list.dart';
 
@@ -16,9 +18,10 @@ class TasksScreen extends StatelessWidget {
             isScrollControlled: true, // take up the full screen
             builder: (context) => SingleChildScrollView(
               child: Container(
-                  padding: EdgeInsets.only(
-                      bottom: MediaQuery.of(context).viewInsets.bottom),
-                  child: AddTaskScreen()),
+                padding: EdgeInsets.only(
+                    bottom: MediaQuery.of(context).viewInsets.bottom),
+                child: AddTaskScreen(),
+              ),
             ),
           );
         },
@@ -53,7 +56,7 @@ class TasksScreen extends StatelessWidget {
                         fontWeight: FontWeight.w700),
                   ),
                   Text(
-                    '12 tasks',
+                    '${Provider.of<TaskData>(context).taskCount} tasks',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 18.0,
