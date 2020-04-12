@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:udemy_flutter_bootcamp/todoey/tasks_screen.dart';
 import 'package:udemy_flutter_bootcamp/xylophone/XylophoneApp.dart';
 import 'package:udemy_flutter_bootcamp/dice/dice_page.dart';
 import 'package:udemy_flutter_bootcamp/quizzler/Quizzler.dart';
@@ -26,6 +27,7 @@ class HomePage extends StatelessWidget {
         '/climate_page': (context) => ClimatePage(),
         '/bitcoin_page': (context) => BitcoinMain(),
         '/chat_page': (context) => FlashChat(),
+        '/todoey_page': (context) => TasksScreen(),
       },
       home: HomeListPage(),
     );
@@ -48,6 +50,7 @@ class HomeListPage extends StatelessWidget {
           ListTile(title: Text('climate_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/climate_page'); },),
           ListTile(title: Text('bitcoin_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/bitcoin_page'); },),
           ListTile(title: Text('chat_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/chat_page'); },),
+          ListTile(title: Text('todoey_page'),trailing: Icon(Icons.forward), onTap: (){ Navigator.pushNamed(context, '/todoey_page'); },),
         ],
       ),
     );
